@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta de Parceria Estratégica: Lord Aroma & Maison De Parfum</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos customizados e animações */
+        body {
+            background-color: #0d0d0d;
+            color: #f0f0f0;
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Cinzel', serif;
+            font-weight: 700;
+        }
+
+        .gold-text {
+            color: #D4AF37;
+        }
+
+        .gold-bg {
+            background-color: #D4AF37;
+        }
+        
+        .gold-border {
+            border-color: #D4AF37;
+        }
+
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url('https://placehold.co/1920x1080/0d0d0d/D4AF37?text=Lord+Aroma') no-repeat center center/cover;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .section-fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+
+        .section-fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .counter-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .counter-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 40px rgba(212, 175, 55, 0.1);
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .cta-button {
+            transition: all 0.3s ease;
+            box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.8);
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- Seção Hero -->
+    <header class="hero-section min-h-screen flex flex-col items-center justify-center text-center p-6">
+        <div class="max-w-4xl">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl gold-text mb-4">Parceria Estratégica</h1>
+            <h2 class="text-2xl md:text-4xl mb-8">Lord Aroma & Maison De Parfum</h2>
+            <p class="max-w-2xl mx-auto text-base md:text-lg text-gray-300 mb-10">
+                Uma proposta para dominar o nicho de perfumaria masculina, transformando autoridade e alcance em crescimento mútuo e vendas exponenciais.
+            </p>
+            <a href="#intro" class="inline-block">
+                <svg class="w-10 h-10 text-gray-300 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção 1: Introdução -->
+        <section id="intro" class="py-20 md:py-32 px-6 section-fade-in">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="mb-12">
+                     <svg class="w-20 h-20 mx-auto gold-text" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                </div>
+                <h2 class="text-3xl md:text-4xl mb-6">Olá, Maison De Parfum,</h2>
+                <p class="text-lg md:text-xl text-gray-300 mb-4">
+                    Meu nome é Francisco Leite, mas no universo da perfumaria, sou conhecido como <span class="gold-text font-bold">Lord Aroma</span>.
+                </p>
+                <p class="text-base md:text-lg text-gray-400 max-w-3xl mx-auto">
+                    Construí uma das comunidades de maior crescimento e engajamento no TikTok, focada em perfumaria masculina de prestígio. O que você verá a seguir não é apenas uma proposta de afiliação, mas um convite para uma parceria estratégica que irá definir o futuro do seu e-commerce. Estes números representam uma audiência massiva, engajada e, mais importante, <span class="font-bold text-gray-200">pronta para comprar</span>.
+                </p>
+            </div>
+        </section>
+
+        <!-- Seção 2: O Poder dos Números - Alcance -->
+        <section class="py-20 md:py-24 bg-black px-6 section-fade-in">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-5xl mb-4 gold-text">O Poder dos Números</h2>
+                    <p class="text-lg text-gray-400">Performance e Alcance Incontestáveis</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <!-- Card Visualizações -->
+                    <div class="counter-card p-8">
+                        <h3 class="text-5xl md:text-6xl font-bold gold-text mb-4" data-target="5123562">0</h3>
+                        <p class="text-xl font-semibold mb-2">Visualizações de Vídeo</p>
+                        <p class="text-green-400 font-bold text-lg">+257,13% de crescimento</p>
+                    </div>
+                    <!-- Card Audiência -->
+                    <div class="counter-card p-8">
+                        <h3 class="text-5xl md:text-6xl font-bold gold-text mb-4" data-target="4235010">0</h3>
+                        <p class="text-xl font-semibold mb-2">Audiência Alcançada</p>
+                        <p class="text-gray-300">+4 milhões de CPFs únicos</p>
+                    </div>
+                    <!-- Card Visualizações de Perfil -->
+                    <div class="counter-card p-8">
+                        <h3 class="text-5xl md:text-6xl font-bold gold-text mb-4" data-target="135644">0</h3>
+                        <p class="text-xl font-semibold mb-2">Visualizações de Perfil</p>
+                        <p class="text-gray-300">Altíssimo nível de interesse</p>
+                    </div>
+                </div>
+                <div class="mt-16 text-center max-w-3xl mx-auto">
+                    <h4 class="text-2xl font-semibold mb-4 text-white">Análise Estratégica</h4>
+                    <p class="text-gray-400 text-lg">
+                        Não se trata apenas de visualizações. Trata-se de <span class="gold-text font-bold">5 milhões de oportunidades</span> em que a sua marca poderia ter sido o centro das atenções, associada a um conteúdo de status, autoridade e confiança.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 3: Engajamento que Converte -->
+        <section class="py-20 md:py-24 px-6 section-fade-in">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-5xl mb-4 gold-text">Engajamento que Converte</h2>
+                    <p class="text-lg text-gray-400">Uma Comunidade Vibrante, Não Apenas Seguidores</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <!-- Card Curtidas -->
+                    <div class="counter-card p-8">
+                        <h3 class="text-5xl md:text-6xl font-bold gold-text mb-4" data-target="134628">0</h3>
+                        <p class="text-xl font-semibold mb-2">Curtidas</p>
+                        <p class="text-green-400 font-bold text-lg">+263,63%</p>
+                    </div>
+                    <!-- Card Compartilhamentos -->
+                    <div class="counter-card p-8 border-2 gold-border">
+                        <h3 class="text-5xl md:text-6xl font-bold gold-text mb-4" data-target="10672">0</h3>
+                        <p class="text-xl font-semibold mb-2">Compartilhamentos</p>
+                        <p class="text-green-400 font-bold text-lg">+530,36% (Boca a boca digital)</p>
+                    </div>
+                    <!-- Card Comentários -->
+                    <div class="counter-card p-8">
+                        <h3 class="text-5xl md:text-6xl font-bold gold-text mb-4" data-target="12724">0</h3>
+                        <p class="text-xl font-semibold mb-2">Comentários</p>
+                        <p class="text-green-400 font-bold text-lg">+353,79%</p>
+                    </div>
+                </div>
+                 <div class="mt-16 text-center max-w-3xl mx-auto">
+                    <h4 class="text-2xl font-semibold mb-4 text-white">Análise Estratégica</h4>
+                    <p class="text-gray-400 text-lg">
+                        Este nível de engajamento significa <span class="gold-text font-bold">confiança absoluta</span>. Quando eu apresento um produto, a audiência não apenas vê: ela escuta, acredita e age. É o ambiente perfeito para transformar espectadores em clientes fiéis.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 4: Prova Final - Conversão -->
+        <section class="py-20 md:py-24 bg-black px-6 section-fade-in">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-5xl mb-4 gold-text">A Prova Final</h2>
+                    <p class="text-lg text-gray-400">Transformando Confiança em Resultados de Negócio</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <!-- Card Cliques -->
+                    <div class="counter-card p-8">
+                        <h3 class="text-5xl md:text-6xl font-bold gold-text mb-4" data-target="26263">0</h3>
+                        <p class="text-xl font-semibold mb-2">Cliques no Site</p>
+                        <p class="text-green-400 font-bold text-lg">+74,11%</p>
+                    </div>
+                    <!-- Card Leads -->
+                    <div class="counter-card p-8">
+                        <h3 class="text-5xl md:text-6xl font-bold gold-text mb-4" data-target="14239">0</h3>
+                        <p class="text-xl font-semibold mb-2">Envios de Leads</p>
+                        <p class="text-gray-300">Base para remarketing robusto</p>
+                    </div>
+                    <!-- Card Telefone -->
+                    <div class="counter-card p-8">
+                        <h3 class="text-5xl md:text-6xl font-bold gold-text mb-4" data-target="1657">0</h3>
+                        <p class="text-xl font-semibold mb-2">Cliques no Telefone</p>
+                        <p class="text-gray-300">Intenção de conversão imediata</p>
+                    </div>
+                </div>
+                <div class="mt-16 text-center max-w-3xl mx-auto">
+                    <h4 class="text-2xl font-semibold mb-4 text-white">Análise Estratégica</h4>
+                    <p class="text-gray-400 text-lg">
+                       Meu canal não é apenas uma vitrine, é uma <span class="gold-text font-bold">ponte direta para a conversão</span>. Eu já tenho a audiência e a confiança. A minha proposta é que todo esse tráfego de altíssimo valor seja direcionado para vocês.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Seção 5: A Proposta -->
+        <section class="py-20 md:py-24 px-6 section-fade-in">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-5xl mb-4 gold-text">A Proposta de Parceria</h2>
+                    <p class="text-lg text-gray-400">Construindo um Império, Juntos.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-gray-300">
+                    <div class="bg-gray-900 p-8 rounded-lg border border-gray-700">
+                        <h3 class="text-2xl md:text-3xl mb-6 text-center gold-text">O Que Eu Entrego</h3>
+                        <ul class="space-y-6">
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 gold-text mr-4 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <div><strong class="text-white block">Lives de Vendas Estratégicas:</strong> Sessões de vendas ao vivo e exclusivas com alto poder de conversão, transformando meu perfil em um canal de vendas recorrente para a Maison De Parfum.</div>
+                            </li>
+                             <li class="flex items-start">
+                                <svg class="w-6 h-6 gold-text mr-4 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <div><strong class="text-white block">TikTok Collab Ads:</strong> Direito de impulsionar meus vídeos de maior performance, combinando sua verba de marketing com minha autenticidade para um ROI massivo.</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-lg border border-gray-700">
+                        <h3 class="text-2xl md:text-3xl mb-6 text-center gold-text">O Que Busco</h3>
+                        <ul class="space-y-6">
+                            <li class="flex items-start">
+                                 <svg class="w-6 h-6 gold-text mr-4 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <div><strong class="text-white block">Fornecimento de Produtos:</strong> Acesso contínuo ao seu catálogo para criação de conteúdo autêntico e constante, alimentando a máquina de engajamento.</div>
+                            </li>
+                             <li class="flex items-start">
+                                 <svg class="w-6 h-6 gold-text mr-4 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                <div><strong class="text-white block">Comissionamento Extra:</strong> Um bônus para garantir prioridade a Maison De Parfum, nas lives vou priorizar os produtos da loja para adicionar na minha sacola de recomendações.</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 6: Visão de Futuro e CTA -->
+        <section class="py-20 md:py-32 px-6 section-fade-in">
+            <div class="max-w-4xl mx-auto text-center">
+                 <h2 class="text-3xl md:text-5xl mb-6 gold-text">Uma Oportunidade Única</h2>
+                 <p class="text-lg md:text-xl text-gray-300 mb-12">
+                    O que estou oferecendo não é publicidade. É a <span class="text-white font-bold">integração completa</span> da sua marca na narrativa de um dos criadores de conteúdo de perfumaria mais influentes e de maior crescimento do Brasil.
+                 </p>
+                
+                <h3 class="text-2xl md:text-3xl mb-8">Nosso Ciclo Virtuoso de Crescimento</h3>
+                <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4 text-white mb-16">
+                    <div class="text-center"><span class="block gold-bg text-black rounded-full px-4 py-2">Conteúdo Autêntico</span></div>
+                    <div class="text-gold-text text-2xl font-bold">&rarr;</div>
+                    <div class="text-center"><span class="block gold-bg text-black rounded-full px-4 py-2">Engajamento Massivo</span></div>
+                    <div class="text-gold-text text-2xl font-bold">&rarr;</div>
+                    <div class="text-center"><span class="block gold-bg text-black rounded-full px-4 py-2">Vendas Diretas</span></div>
+                    <div class="text-gold-text text-2xl font-bold">&rarr;</div>
+                    <div class="text-center"><span class="block gold-bg text-black rounded-full px-4 py-2">Escala com Ads</span></div>
+                </div>
+
+                <a href="https://wa.me/5583998593937?text=Ol%C3%A1%2C%20Lord%20Aroma!%20Vi%20sua%20apresenta%C3%A7%C3%A3o%20e%20falo%20em%20nome%20da%20Maison%20De%20Parfum.%20Gostaria%20de%20discutir%20a%20parceria." target="_blank" class="cta-button inline-block gold-bg text-black font-bold text-lg md:text-xl py-4 px-10 rounded-lg">
+                    Vamos Iniciar a Parceria
+                </a>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="text-center py-8 bg-black">
+        <p class="text-gray-500">&copy; 2024 Lord Aroma. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Lógica para animar os contadores e as seções
+        document.addEventListener('DOMContentLoaded', function() {
+            const counters = document.querySelectorAll('.counter-card h3');
+            const sections = document.querySelectorAll('.section-fade-in');
+            
+            const animateCounter = (el) => {
+                const target = +el.getAttribute('data-target');
+                let count = 0;
+                const duration = 2000; // 2 segundos
+                const increment = target / (duration / 16);
+
+                const updateCount = () => {
+                    count += increment;
+                    if (count < target) {
+                        el.innerText = Math.ceil(count).toLocaleString('pt-BR');
+                        requestAnimationFrame(updateCount);
+                    } else {
+                        el.innerText = target.toLocaleString('pt-BR');
+                    }
+                };
+                updateCount();
+            };
+
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // Anima as seções
+                        entry.target.classList.add('visible');
+                        
+                        // Anima os contadores dentro da seção visível
+                        const sectionCounters = entry.target.querySelectorAll('.counter-card h3');
+                        sectionCounters.forEach(counter => {
+                            if (!counter.classList.contains('animated')) {
+                                animateCounter(counter);
+                                counter.classList.add('animated'); // Evita reanimar
+                            }
+                        });
+
+                        // Não precisa mais observar a seção depois de animada
+                        // observer.unobserve(entry.target); // Descomente se quiser animar apenas uma vez
+                    }
+                });
+            }, observerOptions);
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+
+</body>
+</html>
+
+
